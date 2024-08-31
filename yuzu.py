@@ -24,7 +24,7 @@ def start(num):
             else:
                 return self.output + f"{changenum(int(self.num))[int(self.num)]}"
 
-    def fenjie(num, output):  # 分解成114514*
+    def fenjie(num, output):
         list1 = []
         while 1:
             list1.append(num)
@@ -46,7 +46,6 @@ def start(num):
         if num == 0:
             break
         output = output + "+"
-    print(output)
     return output
 
 
