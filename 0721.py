@@ -1,6 +1,6 @@
 import re
 
-from yuzu_dict import dictnum
+from .dict import dictnum
 
 
 def start(num):
